@@ -1,6 +1,6 @@
 image:
   name: sonarqube
-  tag: 9.9.3-community
+  tag: 9.9.3-enterprise
 containerPort: 9000
 jdbc:
   url: "jdbc:postgresql://postgres.postgres.svc.cluster.local:5432/sonarqube"
