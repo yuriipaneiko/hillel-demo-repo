@@ -1,0 +1,8 @@
+image:
+  name: sonarqube
+  tag: 9.9.3-community
+containerPort: 9000
+jdbc:
+  url: "jdbc:postgresql://postgres.postgres.svc.cluster.local:5432/sonarqube"
+  password: Password12345678
+  username: sonarqube
